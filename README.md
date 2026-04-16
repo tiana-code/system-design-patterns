@@ -1,6 +1,6 @@
 # system-design-patterns - High-Load Architecture Patterns Library
 
-A Spring Boot starter library of production-grade resilience and data quality patterns for distributed systems and microservices. Each pattern is self-contained, framework-agnostic at its core, and designed for high-throughput environments.
+A Spring Boot starter library implementing resilience and data quality patterns for distributed systems. Each pattern is self-contained and framework-agnostic at its core.
 
 ## Patterns
 
@@ -174,12 +174,12 @@ All properties are validated at startup via Jakarta Bean Validation (`@Validated
 
 Auto-configuration is split into modular nested `@Configuration` classes with `@ConditionalOnClass` guards, so only relevant beans are created based on classpath availability.
 
-__-
+---
 
 ## Release Status
 **0.1.0** - API is stabilising but not yet frozen. Minor versions may include breaking changes until `1.0.0`.
 
-__-
+---
 
 ## License
 MIT - see [LICENSE](./LICENSE)
